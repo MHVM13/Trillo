@@ -1,6 +1,5 @@
-<h1 align="center">Trillo - booking app<h1> 
+<h1 align="center">Trillo - booking app</h1> 
 
-***
 <h3 align="center">⚠️<b>This project is from advanced css course</b>⚠️</h3>
 
 ![Project preview](./preview.png "Project preview")
