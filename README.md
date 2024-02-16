@@ -10,7 +10,7 @@
 ***
 
 
-📚 BEM methodology, flexbox, responsive web design, animations, css tricks, etc.
-
+📚 BEM methodology, flexbox, responsive web design, animations, css tricks, etc.  
+⚠️ In this project there is no any CSS architecture
 
 
