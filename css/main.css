@@ -406,6 +406,14 @@ body {
   mask-image: url(./../img/chevron-thin-right.svg);
   mask-size: cover;
 }
+@supports (-webkit-mask-image: url()) or (mask-image: url()) {
+  .list__item::before {
+    background-color: var(--color-primary);
+    mask-image: url(./../img/chevron-thin-right.svg);
+    mask-size: cover;
+    background-image: none;
+  }
+}
 
 .recommend {
   font-size: 1.3rem;

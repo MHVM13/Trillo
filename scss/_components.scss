@@ -388,13 +388,17 @@
         width: 1rem;
         margin-right: .7rem;
 
-        // MASKS
         background-color: var(--color-primary);
         mask-image: url(./../img/chevron-thin-right.svg);
         mask-size: cover;
 
-        //background-image: url(./../img/chevron-thin-right.svg);
-        //background-size: cover;
+        // MASKS
+        @supports (-webkit-mask-image: url()) or (mask-image: url()) {
+            background-color: var(--color-primary);
+            mask-image: url(./../img/chevron-thin-right.svg);
+            mask-size: cover;
+            background-image: none;
+        }
     }
 }
 
